@@ -6,6 +6,9 @@ public class Queue {
     public void enqueu(Object data) {
         qList.addLast(data); // Calling the add last method of Mylinkedlist to add elements at the end of the Queue.
     }
+    public void dequeu() {
+        qList.pop();
+    }
     public void displayQueue() {
         qList.printNode();
     }
@@ -15,6 +18,8 @@ public class Queue {
         queue.enqueu(56);
         queue.enqueu(30);
         queue.enqueu(70);
+        queue.displayQueue();
+        queue.dequeu();
         queue.displayQueue();
     }
 }
