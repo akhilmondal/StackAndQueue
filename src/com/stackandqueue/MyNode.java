@@ -1,4 +1,4 @@
-package com.stack;
+package com.stackandqueue;
 
 public class MyNode {
     Object data;
